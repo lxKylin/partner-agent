@@ -1,5 +1,5 @@
 {
-  "name": "api",
+  "name": "@repo/api",
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
@@ -7,9 +7,13 @@
     "cf-typegen": "wrangler types --env-interface CloudflareBindings"
   },
   "dependencies": {
-    "hono": "^4.12.27"
+    "@hono/zod-validator": "^0.8.0",
+    "@repo/contracts": "workspace:*",
+    "hono": "^4.12.27",
+    "zod": "catalog:"
   },
   "devDependencies": {
+    "typescript": "catalog:",
     "wrangler": "^4.4.0"
   }
 }
