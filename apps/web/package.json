@@ -19,7 +19,8 @@
     "next": "catalog:",
     "react": "catalog:",
     "react-dom": "catalog:",
-    "zod": "catalog:"
+    "zod": "catalog:",
+    "uuidv7": "catalog:"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",

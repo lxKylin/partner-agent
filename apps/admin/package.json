@@ -15,7 +15,8 @@
     "@tanstack/react-query": "catalog:",
     "next": "catalog:",
     "react": "catalog:",
-    "react-dom": "catalog:"
+    "react-dom": "catalog:",
+    "uuidv7": "catalog:"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",

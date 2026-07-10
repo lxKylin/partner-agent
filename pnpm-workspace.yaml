@@ -21,3 +21,4 @@ catalog:
   tailwind-merge: ^3.4.0
   zod: ^4.1.12
   '@tanstack/react-query': '^5.101.2'
+  uuidv7: '^1.2.1'
